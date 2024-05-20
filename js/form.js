@@ -3,13 +3,13 @@ const numberInput = document.getElementById('numberInput');
 const okButton = document.getElementById('okButton');
 const resultElement = document.getElementById('result');
 
-// Fonction pour vérifier si la valeur est un nombre et limiter à 20
+// Fonction pour vérifier si la valeur est un nombre et limiter la plage de valeurs
 function isValidNumber(value) {
     const number = parseInt(value);
     return !isNaN(number) && number >= 0 && number <= quotes.length;
 }
 
-// Vider le champ de saisie lors du chargement de la page
+// Affichage de citations depuis un index aléatoire
 window.addEventListener('load', function() {
     numberInput.value = '';
   });
@@ -25,7 +25,7 @@ window.addEventListener('load', function() {
   
     numberInput.value = '';
   });
-  
+
   numberInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
       const inputValue = parseInt(numberInput.value.trim());
@@ -39,7 +39,7 @@ window.addEventListener('load', function() {
       numberInput.value = '';
     }
   });
-  
+  // Limiter la saisie à des chiffres uniquement
   numberInput.addEventListener('input', function() {
     this.value = this.value.replace(/\D/g, '');
   });
