@@ -27,7 +27,7 @@ const quotes = [
 
     "Connasse.<br>C'est vous qui m'avez traité de connasse ?<br>Mais non.<br>Vous savez, c'est pas très agréable.<br>Bonjour, je viens voir un certain Monsieur Hugues.<br>Hey, c'est quoi ça ?<br>Oh va te faire foutre !<br>Vous dites que j'aille me faire foutre? Ok, j'y vais.<br>Pff quel con !<br>Bonjour Monsieur, vous cherchez quelque chose?<br>Oh, vous devez sans doute être Monsieur Hugues, j'ai une lettre à vous montrer.<br>Ummmff Avant de m'la montrer, je voudrais bien vous posez une question. A qui ai-je l'honneur ?<br>Dave, je suis le fils de Monsieur Callaghan.<br>Faites-moi voir votre papier là, Vous faites une enquête sur Georges Abitboll, l'homme le plus classe du monde.<br>Oui, vous l'avez connu vous, hein ? Humm ?",
 
-    "Ummmfff vous savez Georges, je l'ai connu au temps du Texas. Il est encore cowboy. A l'époque j'étais moi-même cowboy. Je vivais avec Jacques, un bon copain.<br>ummfff Y avait rien de sexuel entre nous. J'vous dit ça parce qu'j'me suis souvent fait traiter de pédale, de salope. Et c'est facile de traiter les gens de pd tout ça parce que deux garçons vivent ensemble dans un ranch et portent des pantalons en cuir.<br>Bref un jour, un cavalier est arrivé à fond les ballons avec une lettre.<br>Hey les pd, y a une lettre pour vous. Tenez, bonne bourre!<br>Pov con va !",
+    "Ummmfff vous savez Georges, je l'ai connu au temps du Texas. Il était encore cowboy. A l'époque j'étais moi-même cowboy. Je vivais avec Jacques, un bon copain.<br>ummfff Y avait rien de sexuel entre nous. J'vous dit ça parce qu'j'me suis souvent fait traiter de pédale, de salope. Et c'est facile de traiter les gens de pd tout ça parce que deux garçons vivent ensemble dans un ranch et portent des pantalons en cuir.<br>Bref un jour, un cavalier est arrivé à fond les ballons avec une lettre.<br>Hey les pd, y a une lettre pour vous. Tenez, bonne bourre!<br>Pov con va !",
 
     "Bon, y avait quoi dans cette lettre ?<br>J'en sais rien, c'est pas moi qui l'ai lu, c'est Jacques.<br>Bon ben racontez moi des choses que vous savez, pas du rien.<br>Ok ok du calme. J'sais pas ce qui y avait dans la lettre. Mais après, on est partis à cheval vers la ville de Georges.",
 
@@ -49,7 +49,7 @@ const quotes = [
 
     "Allo monsieur Jacques ?<br>Absolument.<br>Bonjour, je vous appelle, parce que j'enquête sur Georges Abitbol, et j'aimerais beaucoup recueillir votre témoignage. C'est bon !<br>Écoutez, n'y voyez aucune mauvaise volonté de ma part, mais je tiens à vous dire que je n'ai pas beaucoup de temps. Alors pour Georges Abitbol je veux bien faire un effort, mais il faut pas me prendre pour la bonne poire.<br>J'vous remercie, vous êtes très gentil. Euh, attention, j'ai bien dit gentil, j'ai pas dit homosexuel, hein J'ai dit gentil parce que dans le témoignage de Hugues, il est noté que vous êtes parti dans la ville de Georges en ayant reçu juste une simple lettre. Qu'en est-il exactement.<br>Absolument, je pense que vous faites allusion à cette missive que nous reçûmes un jour, Hugues et moi. Cela avait l'air urgent à croire la hâte du cavalier du Poney Express. En effet, l'expéditeur avait pris soin d'écrire au dos de l'enveloppe : presse le pas facteur, car l'amitié n'attends pas.",
 
-    "Ah j'en ai marre.<br>Tu nous fatigues, qu'est ce qui y a encore? Tu n'arrêtes pas de te plaindre.<br>J'ai faim.<br>Écoute moi bien Hugues mon ami, plus que quelques kilomètres et bientôt nous serons dans une bonne aubeeeerge. Humm, quel trouble fête.",
+    "Ah j'en ai marre.<br>Tu nous fatigues, qu'est ce qui y a encore ? Tu n'arrêtes pas de te plaindre.<br>J'ai faim.<br>Écoute moi bien Hugues mon ami, plus que quelques kilomètres et bientôt nous serons dans une bonne aubeeeerge. Humm, quel trouble fête.",
 
     "Yep, yep, yep...<br>J'vous interrompts, excusez-moi, mais cet épisode nous a déjà été raconté par Hugues. Peut-être pourriez-vous nous parlez de ce qui vous est arrivé après ce repas, dans la bonne aubeeerge, hein ?<br>Absolument, après déjeuner, il était temps que je me misse à l'ouvrage, j'allâmes voir mon ami Dino.",
 
@@ -59,7 +59,7 @@ const quotes = [
 
     "Bonsoir!<br>Pd!<br>Oh, c'est pas banal.<br>Ça commence à être pesant cette histoire de pd, tout le monde s'acharne sur nous, alors qu'on est même pas pd.<br>Mais oui, je sais. T'inquiète pas j'vais aller le voir dès demain Georges.<br>Allez bonne nuit, dors bien.",
 
-    "Georges, il faut que je vous parle. Je sais très bien que sous prétexte que je suis gentil, les gens me prennent souvent pour un truffon. Soit, j'en prends mon parti. N'empêche, je crois qu'on a parlé. Visiblement, vous n'allez pas bien, laissez-moi vous aider.<br>Casse-toi Jacques !<br>Oh ça mais vous refusez le dialogue?<br>Exactement j'veux pas qu'on parle, j'veux que tu quittes la ville. Et t'as intêret à te casser avant 9 heures.<br>Mais Georges, rassurez moi : vous seriez pas un peu en train de me prendre pour un con des fois ?<br>Si complètement même. Et casse-toi maintenant.<br>Georges, vous me décevez, je m'attendais à plus d'ouverture d'esprit de votre part. Je vous aiderez malgré vous.",
+    "Georges, il faut que je vous parle. Je sais très bien que sous prétexte que je suis gentil, les gens me prennent souvent pour un truffon. Soit, j'en prends mon parti. N'empêche, je crois qu'on a parlé. Visiblement, vous n'allez pas bien, laissez-moi vous aider.<br>Casse-toi Jacques !<br>Oh ça mais vous refusez le dialogue?<br>Exactement j'veux pas qu'on parle, j'veux que tu quittes la ville. Et t'as intêret à te casser avant 9 heures.<br>Mais Georges, rassurez-moi : vous seriez pas un peu en train de me prendre pour un con des fois ?<br>Si complètement même. Et casse-toi maintenant.<br>Georges, vous me décevez, je m'attendais à plus d'ouverture d'esprit de votre part. Je vous aiderez malgré vous.",
 
     "Rester en ville malgré les menaces, j'trouve ça drolement courageux de la part d'un pd comme vous.<br>Hey,bon c'est fini oui, ça , c'est une rumeur, j'ai jamais été homosexuel, et encore moins pédéraste.<br>C'est fou que vous ayez tant de complexes.<br>Allez dites le que vous êtes pd !<br>Avouez, vous êtes en train de choper la honte.<br>Et quand bien même j'serai homo, j'vois pas ce que ça change.<br>En string vous devez être bonne.",
 
@@ -217,7 +217,3 @@ const quotes = [
 
     "Aaaaaaah... Monde de merde !<br>Ouais, moi aussi, j'ai bien envie de le dire... Monde de merde !",
 ];
-
-
-// Afficher le tableau
-console.log(quotes);

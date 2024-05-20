@@ -1,12 +1,8 @@
-const app = {
-    init: function(){
-        app.displayQuote();
-    },
-
-    displayQuote: function(){
-        const quoteElement = document.querySelector('#quote');
-        quoteElement.innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
-    }
+// Affichage de citations depuis un index aléatoire
+function displayQuotes(n) {
+    const startIndex = Math.floor(Math.random() * (quotes.length - n + 1));
+    const quotesToDisplay = quotes.slice(startIndex, startIndex + n);
+    resultElement.innerHTML = quotesToDisplay.join('\n');
 };
 
-document.addEventListener('DOMContentLoaded', app.init);
+
