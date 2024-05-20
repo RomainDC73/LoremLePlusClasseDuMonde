@@ -89,7 +89,7 @@ const quotes = [
 
     "Qu'est ce que j'apprends Franckie ? Espèce de malhonnête ! Il parait que t'as des propos intolérables, où y a pas de tolérance. Tu sais donc pas que c'est pas bien d'être raciste ? Que c'est mal ? On ne doit pas faire de discrimination raciale, c'est mal ! Juger les gens sur leur religion, c'est mal, sur leur couleur de leur peau, sur leur origine sociale ou sur leur nationalité, c'est mal.<br>Ok, puisque je vois qu'on ne peut pas discuter, on va faire un duel.<br>Oh .. .ohhohh ...<br>Enculé de ta race !",
 
-    "J'adore les duels inoffensifs. Et maintenant casse-toi ! Et la prochaine fois, je m'occuperai de toi avec de vraies balles. Et ça chauffera pour ton cul, sal français.<br>Bah, j'suis même pas français, j'suis américain.<br>Non, t'es français, moi j'suis américain!",
+    "J'adore les duels inoffensifs. Et maintenant casse-toi ! Et la prochaine fois, je m'occuperai de toi avec de vraies balles. Et ça chauffera pour ton cul, sale français.<br>Bah, j'suis même pas français, j'suis américain.<br>Non, t'es français, moi j'suis américain!",
 
     "Et voilà, c'est pour ça que je l'ai appelé mon vieil ami Jacques. Je veux pas dire, mais c'est un mec qui a vraiment plein de qualité.<br>Mouais moi j'me demande quand même s'il était pas un peu con.<br>Parlez-nous du contenu de cette lettre.<br>Oui, s'il vous plaît, à moins que ce soit privé, et que vous ayez des principes.<br>Mais c'est privé et j'ai des principes. Mais comme vous m'êtes sympathiques, j'vais vous raconter s'qui y avait dans la lettre.<br>Merci, c'est gentil à vous.<br>Y a pas de mal, vous m'êtes sympathiques.",
 
