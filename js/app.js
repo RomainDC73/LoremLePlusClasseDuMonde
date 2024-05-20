@@ -1,14 +1,7 @@
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
-
 function displayQuotes(n) {
-    const shuffledQuotes = shuffleArray(quotes.slice());
-    const quotesToDisplay = shuffledQuotes.slice(0, n);
+    const startIndex = Math.floor(Math.random() * (quotes.length - n + 1));
+    const quotesToDisplay = quotes.slice(startIndex, startIndex + n);
     resultElement.innerHTML = quotesToDisplay.join('\n');
 };
+
 
