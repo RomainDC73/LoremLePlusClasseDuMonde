@@ -217,7 +217,3 @@ const quotes = [
 
     "Aaaaaaah... Monde de merde !<br>Ouais, moi aussi, j'ai bien envie de le dire... Monde de merde !",
 ];
-
-
-// Afficher le tableau
-console.log(quotes);
