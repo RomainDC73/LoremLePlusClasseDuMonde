@@ -1,3 +1,5 @@
+@import url(https://fonts.bunny.net/css?family=passero-one:400);
+
 :root {
     --light-blue: #4D7C8A;
     --dark-blue: #080D1C;
@@ -5,4 +7,21 @@
     --white: #FFFFFF;
 } 
 
-body { background-color: var(--dark-blue); }
+header { 
+    background-color: var(--light-blue); 
+    width: 100%;
+}
+
+body { 
+    background-color: var(--dark-blue); 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Passero One', display;;
+    color: var(--beige);
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+}
