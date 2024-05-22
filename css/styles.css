@@ -1,3 +1,77 @@
-#result {
-    padding-bottom: 2rem;
+@import url(https://fonts.bunny.net/css?family=passero-one:400);
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+:root {
+    --light-blue: #4D7C8A;
+    --dark-blue: #080D1C;
+    --beige: #F0E9CD;
+    --white: #FFFFFF;
+} 
+
+header { 
+    background-color: var(--light-blue); 
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50%;
+    height: auto;
+    background-color: #f0f;
+}
+
+
+body { 
+    background-color: var(--dark-blue); 
+}
+
+.site-title h1 {
+    font-size: 2rem;
+  }
+
+h1 {
+    font-family: 'Passero One', display;;
+    color: var(--beige);
+}
+
+
+pre {
+    background-color: var(--beige);
+    color: var(--dark-blue);
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
 }
