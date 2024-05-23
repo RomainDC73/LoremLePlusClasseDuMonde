@@ -190,6 +190,39 @@ p {
     padding-left: 1rem;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    font-family: var(--main-font);
+    padding: 1rem;
+    border: 2px solid var(--beige);
+    border-radius: 1rem;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+.question {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: var(--beige);
+    padding-bottom: 1rem;
+}
+
+#numberInput {
+  margin-bottom: 1rem;
+}
+
+#okButton {
+    background-color: var(--light-blue);
+    color: var(--beige);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 pre {
     background-color: var(--beige);
     color: var(--dark-blue);
