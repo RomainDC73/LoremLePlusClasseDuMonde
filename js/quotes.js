@@ -215,4 +215,3 @@ const quotes = [`Attention, ce flim n'est pas un flim sur le cyclimse, merci de 
     `Aaaaaaah... Monde de merde !Ouais, moi aussi, j'ai bien envie de le dire... Monde de merde !`,
 ];
 
-console.log(quotes[0]);
