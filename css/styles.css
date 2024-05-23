@@ -45,12 +45,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .logo img {
-    max-width: 50%;
+    width: 300px;
     height: auto;
-    background-color: #f0f;
+}
+
+.logo {
+    padding-right: 1rem;
+}
+
+.site-title {
+    padding-left: 1rem;
 }
 
 
@@ -59,7 +67,8 @@ body {
 }
 
 .site-title h1 {
-    font-size: 2rem;
+    font-size: 5rem;
+    line-height: 4rem;
   }
 
 h1 {
