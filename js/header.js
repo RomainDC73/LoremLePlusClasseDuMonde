@@ -20,7 +20,7 @@ const rotateImage = () => {
 };
 
 const resetRotation = () => {
-  setStyle(logoImage, { transform: 'none' });
+  setStyle(logoImage, { transform: 'rotate(-3deg)' });
 };
 
 const showLogoText = () => {
