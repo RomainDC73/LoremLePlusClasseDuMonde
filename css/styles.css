@@ -70,7 +70,7 @@ header {
       margin-left: 0;
     }
   }
-  
+
 
 .header-container {
     display: flex;
@@ -83,16 +83,39 @@ header {
     width: 300px;
     height: auto;
     transform: rotate(-3deg);
+    display: block; /* Ajouter cette ligne */
 }
 
 .logo {
     padding-right: 1rem;
-
+    position: relative;
+    display: inline-block; /* Ajouter cette ligne */
 }
+
+.logo-text {
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-3deg);
+    background-color: var(--light-blue);
+    color: var(--beige);
+    font-family: 'Passero One', display;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+
+  }
+
+.logo:hover .logo-text {
+    display: block;
+  }
 
 .site-title {
     padding-left: 1rem;
-    transform: rotate(-3deg);
+    transform: rotate(-3deg); 
 }
 
 

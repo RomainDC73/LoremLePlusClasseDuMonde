@@ -1,15 +1,45 @@
 const logoImage = document.getElementById('logoImage');
-
+const logoText = document.getElementById('logoText');
+const logoSrc = './media/LeGrandDetournement.png';
 const logoHoverSrc = './media/LeGrandDetournement-dead.png';
 
-function changeImageOnHover() {
-    logoImage.src = logoHoverSrc;
-}
+const setStyle = (element, styles) => {
+  Object.assign(element.style, styles);
+};
 
-function resetImageOnMouseOut() {
-    logoImage.src = './media/LeGrandDetournement.png';
-}
+const changeImageOnHover = () => {
+  logoImage.src = logoHoverSrc;
+};
 
-logoImage.addEventListener('mouseover', changeImageOnHover);
+const resetImageOnMouseOut = () => {
+  logoImage.src = logoSrc;
+};
 
-logoImage.addEventListener('mouseout', resetImageOnMouseOut);
+const rotateImage = () => {
+  setStyle(logoImage, { transform: 'rotate(10deg)' });
+};
+
+const resetRotation = () => {
+  setStyle(logoImage, { transform: 'none' });
+};
+
+const showLogoText = () => {
+  setStyle(logoText, { display: 'block' });
+};
+
+const hideLogoText = () => {
+  setStyle(logoText, { display: 'none' });
+};
+
+logoImage.addEventListener('mouseover', () => {
+  changeImageOnHover();
+  rotateImage();
+  showLogoText();
+});
+
+logoImage.addEventListener('mouseout', () => {
+  resetImageOnMouseOut();
+  resetRotation();
+  hideLogoText();
+});
+
