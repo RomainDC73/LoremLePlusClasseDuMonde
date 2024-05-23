@@ -33,6 +33,7 @@
     --dark-blue: #080D1C;
     --beige: #F0E9CD;
     --white: #FFFFFF;
+    --main-font: 'Open Sans', sans-serif;
 } 
 
 /* Smartphones */
@@ -131,8 +132,63 @@ body {
 h1 {
     font-family: 'Passero One', display;;
     color: var(--beige);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
+h2 {
+    font-family: var(--main-font);
+    color: var(--beige);
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+h3 {
+    font-family: var(--main-font);
+    color: var(--beige);
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+}
+
+p {
+    font-family: var(--main-font);
+    color: var(--beige);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.supertext {
+    font-family: var(--main-font);
+    color: var(--beige);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.presentation-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 2rem;
+    font-family: var(--main-font);
+}
+
+.baseline {
+    width: 40%;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 1rem;
+
+}
+
+.presentation {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--beige);
+    width: 50%;
+    padding-left: 1rem;
+}
 
 pre {
     background-color: var(--beige);
