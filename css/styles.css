@@ -272,7 +272,7 @@ pre {
 }
 
 #copyButton {
-  display: block;
+  display: none;
   background-color: var(--light-blue);
   color: var(--beige);
   padding: 0.5rem 1rem;

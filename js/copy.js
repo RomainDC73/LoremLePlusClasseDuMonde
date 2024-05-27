@@ -24,3 +24,6 @@ copyButton.addEventListener('click', () => {
     console.log('Texte copié dans le presse-papiers');
   }
 });
+
+
+

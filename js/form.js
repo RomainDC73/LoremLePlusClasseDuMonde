@@ -24,6 +24,8 @@ window.addEventListener('load', function() {
     }
   
     numberInput.value = '';
+
+    copyButton.style.display = 'block';
   });
 
   numberInput.addEventListener('keydown', function(event) {
