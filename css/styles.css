@@ -290,9 +290,18 @@ pre {
 
 #alert {
   display: none;
-  background-color: #4CAF50;
+  background-color: var(--light-blue);
   color: white;
   padding: 10px;
   text-align: center;
   margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+footer { 
+  background-color: var(--light-blue); 
+  width: 100%;
+  margin-top: 10em;
+  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%); */
 }

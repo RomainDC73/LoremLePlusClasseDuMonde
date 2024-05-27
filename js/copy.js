@@ -17,11 +17,17 @@ copyButton.addEventListener('click', () => {
 
       alertElement.textContent = 'Texte copié dans le presse-papiers';
       alertElement.style.display = 'block';
+      setTimeout(function() {
+        alertElement.style.opacity = '1';
+      }, 10);
   
-      setTimeout(() => {
-        alertElement.style.display = 'none';
+      setTimeout(function() {
+        alertElement.style.opacity = '0';
+        setTimeout(function() {
+          alertElement.style.display = 'none';
+        }, 500);
       }, 4000);
-      
+
   } else {
     // Utiliser la méthode de secours pour les navigateurs plus anciens
     const tempInput = document.createElement('textarea');
