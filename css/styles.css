@@ -174,7 +174,6 @@ p {
 .presentation-container {
     display: flex;
     justify-content: center;
-    align-items: top;
     padding: 2rem;
     font-family: var(--main-font);
 }
@@ -300,8 +299,30 @@ pre {
 }
 
 footer { 
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background-color: var(--light-blue); 
   width: 100%;
   margin-top: 10em;
-  /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%); */
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 0 4rem 0;
+
+
+}
+
+footer p {
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: var(--beige);
+
+}
+
+footer a {
+  color: var(--dark-blue);
+  text-decoration: none;
 }
