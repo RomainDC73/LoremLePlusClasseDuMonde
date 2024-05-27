@@ -197,10 +197,10 @@ p {
     width: 30%;
     font-family: var(--main-font);
     padding: 1rem;
-    border: 2px solid var(--beige);
+    border: 1px solid var(--beige);
     border-radius: 1rem;
     box-sizing: content-box;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
 }
 
 .question {
@@ -212,7 +212,25 @@ p {
 
 #numberInput {
   margin-bottom: 1rem;
+  border: 2px solid transparent;
+  width: 6em;
+  height: 2.5em;
+  text-align: center;
+  outline: none;
+  overflow: hidden;
+  background-color: var(--beige);
+  border-radius: 4px;
 }
+
+#numberInput:focus {
+  border: 1px solid var(--light-blue);
+}
+
+#numberInput::placeholder {
+  color: var(--dark-blue);
+  font-style: italic;
+}
+
 
 #okButton {
     background-color: var(--light-blue);
@@ -221,6 +239,12 @@ p {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+#okButton:hover {
+    background-color: var(--beige);
+    color: var(--dark-blue);
 }
 
 pre {
@@ -229,4 +253,6 @@ pre {
     padding: 1em;
     border-radius: 5px;
     overflow-x: auto;
+    white-space: pre-line;
+    margin: auto 15rem;
 }
