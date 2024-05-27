@@ -1,4 +1,5 @@
-@import url(https://fonts.bunny.net/css?family=passero-one:400);
+
+@import url(https://fonts.bunny.net/css?family=lato:400,900|passero-one:400);
 
 /*
   Josh's Custom CSS Reset
@@ -33,7 +34,7 @@
     --dark-blue: #080D1C;
     --beige: #F0E9CD;
     --white: #FFFFFF;
-    --main-font: 'Open Sans', sans-serif;
+    --main-font: 'Lato', sans-serif;
 } 
 
 /* Smartphones */
@@ -72,6 +73,9 @@ header {
     }
   }
 
+body {
+  font-family: var(--main-font);
+}
 
 .header-container {
     display: flex;
@@ -139,6 +143,7 @@ h1 {
 h2 {
     font-family: var(--main-font);
     color: var(--beige);
+    font-weight: 900;
     font-size: 2rem;
     line-height: 3rem;
 }
@@ -254,7 +259,7 @@ pre {
     border-radius: 5px;
     overflow-x: auto;
     white-space: pre-line;
-    margin: auto 15rem;
+    margin: 2em 15rem 2em 15rem;
 }
 
 #result p {
@@ -264,4 +269,21 @@ pre {
     color: var(--light-blue);
     font-style: italic;
     padding-top: 1rem;
+}
+
+#copyButton {
+  display: block;
+  background-color: var(--light-blue);
+  color: var(--beige);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 10px auto 0;
+}
+
+#copyButton:hover {
+  background-color: var(--beige);
+  color: var(--dark-blue);
 }
