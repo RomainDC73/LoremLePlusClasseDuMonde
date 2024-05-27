@@ -213,7 +213,7 @@ p {
 #numberInput {
   margin-bottom: 1rem;
   border: 2px solid transparent;
-  width: 6em;
+  width: 5em;
   height: 2.5em;
   text-align: center;
   outline: none;
@@ -255,4 +255,13 @@ pre {
     overflow-x: auto;
     white-space: pre-line;
     margin: auto 15rem;
+}
+
+#result p {
+    font-family: var(--main-font);
+    text-align: center;
+    line-height: 2rem;
+    color: var(--light-blue);
+    font-style: italic;
+    padding-top: 1rem;
 }
