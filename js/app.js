@@ -6,4 +6,8 @@ function displayQuotes(n) {
     resultElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
 };
 
-
+window.onload = function() {
+    const currentYear = new Date().getFullYear();
+    const yearElement = document.getElementById('currentYear');
+    yearElement.textContent = currentYear;
+  };

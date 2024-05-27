@@ -9,19 +9,25 @@ copyButton.addEventListener('click', () => {
     // Utiliser l'API Clipboard pour copier le texte
     navigator.clipboard.writeText(textToCopy)
       .then(() => {
-        console.log('Texte copié !');
+        // console.log('Texte copié !');
       })
       .catch((err) => {
-        console.error('Échec de la copie du texte: ', err);
+        // console.error('Échec de la copie du texte: ', err);
       });
 
-      alertElement.textContent = 'Texte copié dans le presse-papiers';
+      alertElement.textContent = 'Texte copié ! Fais-toi plaisir amigo !';
       alertElement.style.display = 'block';
+      setTimeout(function() {
+        alertElement.style.opacity = '1';
+      }, 10);
   
-      setTimeout(() => {
-        alertElement.style.display = 'none';
+      setTimeout(function() {
+        alertElement.style.opacity = '0';
+        setTimeout(function() {
+          alertElement.style.display = 'none';
+        }, 500);
       }, 4000);
-      
+
   } else {
     // Utiliser la méthode de secours pour les navigateurs plus anciens
     const tempInput = document.createElement('textarea');
@@ -30,7 +36,7 @@ copyButton.addEventListener('click', () => {
     tempInput.select();
     document.execCommand('copy');
     document.body.removeChild(tempInput);
-    console.log('Texte copié dans le presse-papiers');
+
 
 
   }
