@@ -15,7 +15,7 @@ copyButton.addEventListener('click', () => {
         // console.error('Échec de la copie du texte: ', err);
       });
 
-      alertElement.textContent = 'Texte copié ! Fais-toi plaisir amigo !';
+      alertElement.textContent = '🎉 Texte copié. Fais-toi plaisir amigo !';
       alertElement.style.display = 'block';
       setTimeout(function() {
         alertElement.style.opacity = '1';
@@ -26,7 +26,7 @@ copyButton.addEventListener('click', () => {
         setTimeout(function() {
           alertElement.style.display = 'none';
         }, 500);
-      }, 4000);
+      }, 3000);
 
   } else {
     // Utiliser la méthode de secours pour les navigateurs plus anciens
