@@ -1,4 +1,3 @@
-
 @import url(https://fonts.bunny.net/css?family=lato:400,900|passero-one:400);
 
 /*
@@ -6,212 +5,205 @@
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
 *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  * {
-    margin: 0;
-  }
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  input, button, textarea, select {
-    font: inherit;
-  }
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  #root, #__next {
-    isolation: isolate;
-  }
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
 
 :root {
-    --light-blue: #4D7C8A;
-    --dark-blue: #080D1C;
-    --beige: #F0E9CD;
-    --white: #FFFFFF;
-    --main-font: 'Lato', sans-serif;
+  --light-blue: #4D7C8A;
+  --dark-blue: #080D1C;
+  --beige: #F0E9CD;
+  --white: #FFFFFF;
+  --main-font: 'Lato', sans-serif;
 } 
 
 /* Smartphones */
 @media (max-width: 767px) {
-    /* Styles pour les smartphones */
+  /* Styles pour les smartphones */
 }
-  
-  /* Tablettes */
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* Styles pour les tablettes */
+
+/* Tablettes */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles pour les tablettes */
 }
-  
-  /* Ordinateurs de bureau */
-  @media (min-width: 992px) {
-    /* Styles pour les ordinateurs de bureau */
+
+/* Ordinateurs de bureau */
+@media (min-width: 992px) {
+  /* Styles pour les ordinateurs de bureau */
 }
 
 header { 
-    background-color: var(--light-blue); 
-    width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
+  /* background-color: var(--light-blue);  */
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
 }
 
 @media (max-width: 767px) {
-    .header-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .logo {
-      margin-bottom: 1rem;
-    }
-  
-    .site-title {
-      margin-left: 0;
-    }
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
   }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .site-title {
+    margin-left: 0;
+  }
+}
 
 body {
   font-family: var(--main-font);
+  background: linear-gradient(150deg, var(--dark-blue), #1A2445);
 }
 
 .header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .logo img {
-    width: 300px;
-    height: auto;
-    transform: rotate(-3deg);
-    display: block; /* Ajouter cette ligne */
+  width: 300px;
+  height: auto;
+  transform: rotate(-3deg);
+  display: block; /* Ajouter cette ligne */
 }
 
 .logo {
-    padding-right: 1rem;
-    position: relative;
-    display: inline-block; /* Ajouter cette ligne */
+  padding-right: 1rem;
+  position: relative;
+  display: inline-block; /* Ajouter cette ligne */
 }
 
 .logo-text {
-    display: none;
-    position: absolute;
-    top: 70%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    transform: rotate(-3deg);
-    background-color: var(--light-blue);
-    color: var(--beige);
-    font-family: 'Passero One', display;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 4px;
-
-  }
-
-.logo:hover .logo-text {
-    display: block;
-  }
-
-.site-title {
-    padding-left: 1rem;
-    transform: rotate(-3deg); 
+  display: none;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-3deg);
+  background-color: var(--light-blue);
+  color: var(--beige);
+  font-family: 'Passero One', display;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
+.logo:hover .logo-text {
+  display: block;
+}
 
-body { 
-    background-color: var(--dark-blue); 
+.site-title {
+  padding-left: 1rem;
+  transform: rotate(-3deg); 
 }
 
 .site-title h1 {
-    font-size: 5rem;
-    line-height: 4rem;
-  }
+  font-size: 5rem;
+  line-height: 4rem;
+}
 
 h1 {
-    font-family: 'Passero One', display;;
-    color: var(--beige);
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+  font-family: 'Passero One', display;;
+  color: var(--beige);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 h2 {
-    font-family: var(--main-font);
-    color: var(--beige);
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 3rem;
+  font-family: var(--main-font);
+  color: var(--beige);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 h3 {
-    font-family: var(--main-font);
-    color: var(--beige);
-    font-size: 1.5rem;
-    line-height: 2rem;
-
+  font-family: var(--main-font);
+  color: var(--beige);
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 p {
-    font-family: var(--main-font);
-    color: var(--beige);
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding-top: 0.5rem;
+  font-family: var(--main-font);
+  color: var(--beige);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .supertext {
-    font-family: var(--main-font);
-    color: var(--beige);
-    font-size: 1rem;
-    font-weight: bold;
+  font-family: var(--main-font);
+  color: var(--beige);
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .presentation-container {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-    font-family: var(--main-font);
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-family: var(--main-font);
 }
 
 .baseline {
-    width: 40%;
-    text-align: right;
-    text-transform: uppercase;
-    padding-right: 1rem;
-
+  width: 40%;
+  text-align: right;
+  text-transform: uppercase;
+  padding-right: 1rem;
 }
 
 .presentation {
-    font-size: 2rem;
-    line-height: 2rem;
-    color: var(--beige);
-    width: 50%;
-    padding-left: 1rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--beige);
+  width: 50%;
+  padding-left: 1rem;
 }
 
 .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    font-family: var(--main-font);
-    padding: 1rem;
-    border: 1px solid var(--beige);
-    border-radius: 1rem;
-    box-sizing: content-box;
-    margin: 0 auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  font-family: var(--main-font);
+  padding: 1rem;
+  border: 1px solid var(--beige);
+  border-radius: 1rem;
+  box-sizing: content-box;
+  margin: 0 auto 1rem auto;
 }
 
 .question {
-    font-size: 1rem;
-    line-height: 1rem;
-    color: var(--beige);
-    padding-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--beige);
+  padding-bottom: 1rem;
 }
 
 #numberInput {
@@ -235,39 +227,38 @@ p {
   font-style: italic;
 }
 
-
 #okButton {
-    background-color: var(--light-blue);
-    color: var(--beige);
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.5s;
+  background-color: var(--light-blue);
+  color: var(--beige);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 #okButton:hover {
-    background-color: var(--beige);
-    color: var(--dark-blue);
+  background-color: var(--beige);
+  color: var(--dark-blue);
 }
 
 pre {
-    background-color: var(--beige);
-    color: var(--dark-blue);
-    padding: 1em;
-    border-radius: 5px;
-    overflow-x: auto;
-    white-space: pre-line;
-    margin: 2em 15rem 2em 15rem;
+  background-color: var(--beige);
+  color: var(--dark-blue);
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-line;
+  margin: 2em 15rem 2em 15rem;
 }
 
 #result p {
-    font-family: var(--main-font);
-    text-align: center;
-    line-height: 2rem;
-    color: var(--light-blue);
-    font-style: italic;
-    padding-top: 1rem;
+  font-family: var(--main-font);
+  text-align: center;
+  line-height: 2rem;
+  color: var(--light-blue);
+  font-style: italic;
+  padding-top: 1rem;
 }
 
 #copyButton {
@@ -289,20 +280,23 @@ pre {
 
 #alert {
   display: none;
-  background-color: var(--light-blue);
-  color: white;
+  background-color: var(--dark-blue);
+  color: var(--beige);
   padding: 10px;
   text-align: center;
-  margin-top: 10px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 4px;
   opacity: 0;
   transition: opacity 0.6s;
+  width: fit-content;
 }
 
 footer { 
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: var(--light-blue); 
+  /* background-color: var(--light-blue);  */
   width: 100%;
   margin-top: 10em;
 }
@@ -311,18 +305,15 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem 0 4rem 0;
-
-
 }
 
 footer p {
   font-size: 0.8rem;
   line-height: 0.8rem;
   color: var(--beige);
-
 }
 
 footer a {
-  color: var(--dark-blue);
+  color: var(--light-blue);
   text-decoration: none;
 }
