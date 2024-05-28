@@ -43,3 +43,4 @@ logoImage.addEventListener('mouseout', () => {
   hideLogoText();
 });
 
+

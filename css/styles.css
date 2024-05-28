@@ -52,7 +52,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 header { 
-  /* background-color: var(--light-blue);  */
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
 }
@@ -88,13 +87,13 @@ body {
   width: 300px;
   height: auto;
   transform: rotate(-3deg);
-  display: block; /* Ajouter cette ligne */
+  display: block;
 }
 
 .logo {
   padding-right: 1rem;
   position: relative;
-  display: inline-block; /* Ajouter cette ligne */
+  display: inline-block;
 }
 
 .logo-text {
@@ -301,7 +300,7 @@ pre {
 }
 
 .link-container img {
-  width: 120px;
+  width: 150px;
   height: auto;
   margin: 0 1rem;
 }
@@ -335,7 +334,6 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  /* background-color: var(--light-blue);  */
   width: 100%;
   margin-top: 10em;
 }
