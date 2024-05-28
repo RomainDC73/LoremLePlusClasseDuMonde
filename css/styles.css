@@ -292,6 +292,45 @@ pre {
   width: fit-content;
 }
 
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 10em;
+}
+
+.link-container img {
+  width: 120px;
+  height: auto;
+  margin: 0 1rem;
+}
+
+.link-container span {
+  font-family: var(--main-font);
+  color: var(--beige);
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+
+#watchMovieButton {
+  background-color: var(--light-blue);
+  color: var(--beige);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 1em auto 1em auto;
+}
+
+#watchMovieButton:hover {
+  background-color: var(--beige);
+  color: var(--dark-blue);
+}
+
 footer { 
   display: flex;
   justify-content: center;
