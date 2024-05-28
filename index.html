@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="media/x-icon" href="media/favicon-32x32.png">
     <title>Lorem Le Plus Classe Du Monde</title>
 </head>
 
@@ -12,15 +13,14 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <img src="media/LeGrandDetournement.png" alt="Logo 1" id="logoImage">
+                <img src="media/LeGrandDetournement.png" alt="Georges Abitbol, l'homme le plus classe du monde" id="logoImage">
                 <span class="logo-text" id="logoText">Aaaaaaaah,<br>monde de merde...</span>
             </div>
             <div class="site-title">
                 <h1>Lorem<br>Le Plus Classe<br>Du Monde</h1>
            </div>
         </div>
-
-    </header>
+</header>
 
     <div class="presentation-container">
         <div class="baseline">
@@ -41,12 +41,24 @@
     </div>
 
     <pre id="result">
-    Prépare-toi, le texte généré avec le nombre de citations du flim souhaitées va apparaître ici...
+    Prépare-toi, le texte généré avec les citations du flim va apparaître ici...
     </pre>
 
     <button id="copyButton">Copier le texte</button>
 
-    <div id="alert"></div>
+    <div class="link-container">
+        <div class="img-link">
+            <a href="https://www.youtube.com/watch?v=PFB6HnYODW8" target="_blank">
+                <img src="media/la_classe_americaine.png" alt="Affiche La Classe Américaine, Le Grand Détournement" id="affiche">
+            </a>
+        </div>
+        <div class="text-link">
+            <p><span id="what">Quoi ?</span></p> 
+            <h3>Tu connais pas La Classe Américaine ? </h3>
+            <p>C'est un flim, il était number one.</p>
+            <button id="watchMovieButton">Voir le flim</button>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
@@ -61,6 +73,7 @@
 <script src="js/header.js"></script>
 <script src="js/quotes.js"></script>
 <script src="js/form.js"></script>
+<script src="js/links.js"></script>
 <script src="js/app.js"></script>
 <script src="js/footer.js"></script>
 </html>
