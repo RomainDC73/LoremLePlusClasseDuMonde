@@ -335,12 +335,13 @@ footer a {
   }
 
   .logo img {
-    width: 300px;
+    width: 250px;
   }
 
   .logo-text {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    top: 80%;
   }
 
   .site-title {
@@ -348,7 +349,7 @@ footer a {
   }
 
   .site-title h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 3rem;
   }
 
@@ -380,18 +381,11 @@ footer a {
     padding-left: 1rem;
   }
 
-  .form-container {
-    width: 30%;
-  }
-
-  pre {
-    margin: 2em 15rem 2em 15rem;
-  }
-
   .link-container {
     flex-direction: row;
     justify-content: center;
     margin-top: 5em;
+    text-align: left;
   }
 
   .link-container img {
