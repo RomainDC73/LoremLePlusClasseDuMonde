@@ -321,7 +321,6 @@ footer a {
   text-decoration: none;
 }
 
-/* Styles pour les écrans de taille moyenne (tablettes) */
 @media (min-width: 768px) {
   .header-container {
     flex-direction: row;
@@ -398,11 +397,19 @@ footer a {
   }
 }
 
-/* Styles pour les écrans plus grands (desktop) */
 @media (min-width: 992px) {
   .site-title h1 {
     font-size: 5rem;
     line-height: 4rem;
+  }
+
+  .logo-text {
+    top: 90%;
+  }
+
+  .presentation-container {
+    align-items: flex-start;
+    padding: 1rem;
   }
 
   h2 {
@@ -418,6 +425,11 @@ footer a {
   .presentation {
     font-size: 2rem;
     line-height: 2rem;
+  }
+
+  pre {
+    max-width: 900px;
+    margin: 2rem auto;
   }
 
   .link-container span {
