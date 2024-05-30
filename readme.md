@@ -25,3 +25,7 @@ Ce projet n'a pas de licence mais toutes les citations proviennent du
 Un grand merci à l'équipe du film "La Classe Américaine" pour avoir créé cette œuvre hilarante et inspirante.
 
 Vous pouvez maintenant copier-coller ce texte dans votre fichier README.md pour votre projet sur GitHub.
+
+## Enjoy it
+
+<www.loremleplusclassedumonde.fr>
